@@ -12,7 +12,7 @@ import type {
   PayloadAdminUIThemesOptions,
 } from "./types.js";
 
-const clientComponentPath = "payload-admin-ui-themes/client";
+const clientComponentPath = "@zubricks/payload-admin-ui-themes/client";
 
 const componentMatches = (
   component: PayloadComponent | undefined,

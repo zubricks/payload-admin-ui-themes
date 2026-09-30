@@ -34,10 +34,10 @@ describe("payloadAdminUIThemes", () => {
     expect(components?.providers).toEqual(
       expect.arrayContaining([
         "example/provider#ExistingProvider",
-        "payload-admin-ui-themes/themes/light-cream/client#LightCreamThemeProvider",
+        "@zubricks/payload-admin-ui-themes/themes/light-cream/client#LightCreamThemeProvider",
         expect.objectContaining({
           exportName: "AdminUIThemesProvider",
-          path: "payload-admin-ui-themes/client",
+          path: "@zubricks/payload-admin-ui-themes/client",
         }),
       ]),
     );

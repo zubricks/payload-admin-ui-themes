@@ -1,4 +1,4 @@
-# payload-admin-ui-themes
+# @zubricks/payload-admin-ui-themes
 
 Installable, user-selectable Admin UI themes for Payload 4.
 
@@ -10,15 +10,15 @@ theme globally or for selected roles.
 ## Install
 
 ```bash
-pnpm add payload-admin-ui-themes
+pnpm add @zubricks/payload-admin-ui-themes
 ```
 
 ## Configure
 
 ```ts
-import { payloadAdminUIThemes } from "payload-admin-ui-themes";
-import { lightCreamTheme } from "payload-admin-ui-themes/themes/light-cream";
-import { stockTheme } from "payload-admin-ui-themes/themes/stock";
+import { payloadAdminUIThemes } from "@zubricks/payload-admin-ui-themes";
+import { lightCreamTheme } from "@zubricks/payload-admin-ui-themes/themes/light-cream";
+import { stockTheme } from "@zubricks/payload-admin-ui-themes/themes/stock";
 
 export default buildConfig({
   plugins: [
@@ -70,7 +70,7 @@ Use `roleField` when the user's role is stored somewhere other than `role`.
 A theme is a serializable manifest plus an optional Payload client provider that imports its CSS:
 
 ```ts
-import type { AdminUITheme } from "payload-admin-ui-themes";
+import type { AdminUITheme } from "@zubricks/payload-admin-ui-themes";
 
 export const northstarTheme: AdminUITheme = {
   id: "northstar",

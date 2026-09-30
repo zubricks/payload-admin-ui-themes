@@ -5,5 +5,5 @@ export const lightCreamTheme: AdminUITheme = {
   id: "light-cream",
   label: "Light Cream",
   Provider:
-    "payload-admin-ui-themes/themes/light-cream/client#LightCreamThemeProvider",
+    "@zubricks/payload-admin-ui-themes/themes/light-cream/client#LightCreamThemeProvider",
 };
