@@ -1,6 +1,6 @@
-# @zubricks/payload-admin-ui-themes
+<img width="1200" height="801" alt="Admin UI Theme Header" src="https://github.com/user-attachments/assets/f0ae499b-f33a-4ec8-9bc3-db37acf793ab" />
 
-Installable, user-selectable Admin UI themes for Payload 4.
+# Installable, user-selectable Admin UI themes for Payload 4.
 
 The plugin registers an Admin theme picker in Payload's user Settings menu. Themes are code-owned,
 versioned packages: editors choose from the themes installed by the project, while developers keep
@@ -12,6 +12,8 @@ theme globally or for selected roles.
 ```bash
 pnpm add @zubricks/payload-admin-ui-themes
 ```
+
+*this plugin is currently only supported for Payload 4.0*
 
 ## Configure
 
